@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	
+	<body>
+		<div id="header">
+			<img src="images/logo.png" alt="logo" width="300" height="100">
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services </a></li>
+					<li><a href="braces.html">Braces</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		
+			<div id="content">
+				<div id="feature">
+				<img src="images/feature.png" alt="feature">
+				
+				</div>
+			</div>
+			<div>
+				<!-- Forms -->
+				<form action="contact.php" method="post">
+					<fieldset>
+						<legend> Personal Details </legend>
+							<label for = "name"> Name: </label> <input id="name" type="text" name="name" size="30"/> <br />
+							<label for = "email"> Email: </label> <input id="email" type="email" name="email" size="30"/> <br />
+							<label for = "mobile"> Mobile: </label> <input id="mobile" type="tel" name="mobile" size="30"/> <br />
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend> Our Contact Information</legend>
+							<label for = "email">Email: </label> <label >winningsmile@gmail.com</label><br />
+							<label for = "mobile">Phone: </label> <label >0089305935</label> <br />
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend> Your Feedback </legend>
+							<p>How did you hear about Winning Smile? <br />
+								<input type="checkbox" name="survey" value="socialmedia" /> Social Media
+								<input type="checkbox" name="survey" value="radio" /> Radio
+								<input type="checkbox" name="survey" value="newspaper" /> Newspaper
+								<input type="checkbox" name="survey" value="television" /> Television
+							</p>
+							<p>How was experience at Winning Smile?<br />
+								<input type="radio" name="Activity" /> 	Very Good <br />
+								<input type="radio" name="Activity" /> 	Good <br />
+								<input type="radio" name="Activity" /> 	Okay <br />
+								<input type="radio" name="Activity" /> 	Bad <br />
+								<input type="radio" name="Activity" /> 	Very Bad <br />
+							</p>	
+							<p> Any other comments: <br />
+							<textarea name="comments" cols="60" rows="5">Enter your comments here ...</textarea>
+							</p>
+							<p> Include your email address below and sign up to our Winning Smile Newsletter:
+								<br /> <input type="text" name="email">
+								<input type="submit" value="Join Now" class = "buttons"/>
+							</p>
+							<input type="submit" value="Submit Feedback" class = "buttons"/>
+							
+							
+					</fieldset>
+				</form>
+			
+			</div>
+		
+		<div id="footer">
+			<p>&copy; Copyright 2021</p>
+		</div>
+	</body>
+</html>
