@@ -4,7 +4,7 @@
 	text-align: center;}
 	
 body {
-	width: 90%;
+	width: 93%;
 	margin: 0 auto;}
 	
 #header {
@@ -38,22 +38,15 @@ li {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #efefef;}
-	
-#feature {
-	height: 180px; 
-	width: 1115px;
-}
+
 
 .article {
-	height: 160px;
-	width: 357px;
+	
 	border:1px solid #021a40;
 }
 
 #nav {
 	height: 32px;
-	width: 1115px;
-	background-image: url("images/nav.png");
 }
 
 /*Image Gallery*/
